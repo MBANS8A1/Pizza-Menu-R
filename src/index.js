@@ -52,6 +52,7 @@ function App() {
       <Pizza />
       <Pizza />
       <Pizza />
+      <Footer />
     </div>
   );
 }
@@ -62,7 +63,11 @@ function Header() {
 
 function Menu() {}
 
-function Footer() {}
+function Footer() {
+  return (
+    <footer>{new Date().toLocaleDateString()}We're currently open!</footer>
+  );
+}
 function Pizza() {
   return (
     <div>
