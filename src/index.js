@@ -49,9 +49,6 @@ function App() {
   return (
     <div>
       <Header />
-      <Pizza />
-      <Pizza />
-      <Pizza />
       <Footer />
     </div>
   );
@@ -61,7 +58,17 @@ function Header() {
   return <h1>Sean's Rapid Pizza Co.</h1>;
 }
 
-function Menu() {}
+function Menu() {
+  return (
+    <div>
+      <h2>Our Menu</h2>
+      <Pizza />
+      <Pizza />
+      <Pizza />
+      <Pizza />
+    </div>
+  );
+}
 
 function Footer() {
   return (
