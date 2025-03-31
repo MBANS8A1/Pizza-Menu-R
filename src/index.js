@@ -48,12 +48,21 @@ const pizzaData = [
 function App() {
   return (
     <div>
-      <h1>Hello React!</h1>
+      <Header />
+      <Pizza />
+      <Pizza />
       <Pizza />
     </div>
   );
 }
 
+function Header() {
+  return <h1>Sean's Rapid Pizza Co.</h1>;
+}
+
+function Menu() {}
+
+function Footer() {}
 function Pizza() {
   return (
     <div>
