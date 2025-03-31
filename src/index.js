@@ -49,6 +49,7 @@ function App() {
   return (
     <div>
       <Header />
+      <Menu />
       <Footer />
     </div>
   );
