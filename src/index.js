@@ -61,7 +61,7 @@ function Header() {
   const style = {};
   return (
     <header className="header">
-      <h1 style={{ style }}>Sean's Rapid Pizza Co.</h1>
+      <h1 style={{ style }}>Sean&#39;s Rapid Pizza Co.</h1>
     </header>
   );
 }
